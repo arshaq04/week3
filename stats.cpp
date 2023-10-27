@@ -13,11 +13,11 @@ int main() {
     int x, y;
     cout << "Please enter two numbers: ";
     cin >> x >> y;
-    int sum = x + y;
-    int subtract = x - y;
-    int product = x * y;
-    int distance = abs(subtract);
-    int mean_average = sum / 2.0;; 
+    double sum = x + y;
+    double subtract = x - y;
+    double product = x * y;
+    double distance = abs(subtract);
+    double mean_average = sum / 2.0;; 
     cout << "The sum of " << x << " and " << y << " is: " << sum << endl;
     cout << "The difference between " << x << " and " << y << " is: " << subtract << endl;
     cout << "The product of " << x << " and " << y << " is: " << product << endl;
